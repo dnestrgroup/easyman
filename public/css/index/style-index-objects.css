@@ -1,0 +1,36 @@
+img {
+ max-width: 100%;
+ height: auto;
+}
+
+.header__language-leftimg { /* отступы для картинок - в разделе мои услуги - молоток, семья, конституция */
+  float: left; /* Выравнивание по левому краю */
+  margin: 0px 15px 0px 0px; /* Поочередно устанавливается отступ от верхнего, правого, нижнего и левого края */
+}
+
+.header__language-rightimg  {
+ float: right; /* Выравнивание по правому краю  */ 
+ margin: 0px 8px 0px 0px; /* Поочередно устанавливается отступ от верхнего, правого, нижнего и левого края */
+}
+
+
+/* Style for Text-field on enter main page */
+.input_bar_login {
+ height: 24px; /* высота на свое усмотрение*/
+ width: 70%; /* ширина на свое усмотрение*/
+ border: 1px solid #cccccc; /*цвет рамки*/
+   
+ background: #ffffff; /* желательно прописывать, так как в Chrome при сохранных данных оно может быть желтым*/
+ outline: none;/* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+ padding: 2px;
+ margin-top: 10px;
+  
+ font-family: Verdana; /* Стиль шрифта*/
+ font-size: 1em; /* Размер шрифта*/
+ color: #626262; /*цвет шрифта в обычном состоянии*/
+   
+ border-radius: 5px; /*закругление углов (общее)*/
+ -webkit-border-radius: 5px; /*закругление углов (Google Chrome)*/
+ -moz-border-radius: 5px; /*закругление углов (FireFox)*/
+ -khtml-border-radius: 5px; /*закругление углов (Safari)*/
+}

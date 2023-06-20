@@ -1,0 +1,54 @@
+/* --------------- [BUTTON] - Sens sms (filled with color Blue) ------------------ */
+.button_send_sms a {
+ clear: both;
+ /* width: 70%; /* ширина кнопки не указыается, т.к. зависит от ширины текста в ней и отступов от текста*/
+ font: 12px Veranda, Arial; /* начертание шрифта */
+ color: #fff; /*цвет ссылки*/
+ text-decoration: none; /*отключает поддчеркивание ссылки*/
+ line-height: 150%; /*межстрочный интервал в левом меню*/
+ font-weight: bold; /*жирный шрифт*/
+ background: #3698f3;
+ 
+ padding-left: 5%; /* Поля вокруг текста */
+ padding-right: 5%; /* Поля вокруг текста */
+ padding-top: 5px; /* Поля вокруг текста */
+ padding-bottom: 5px; /* Поля вокруг текста */
+ 
+ /*margin-left: 10px;*/
+ /*margin-top: 10px;*/
+ display: inline-block;
+ 
+ border-radius: 5px;
+ -moz-border-radius: 5px; /* закругление для старых Mozilla Firefox */
+ -webkit-border-radius: 5px; /* закругление для старых Chrome и Safari */
+ -khtml-border-radius: 5px; /* закругл. для браузера Konquerer системы Linux */
+}
+
+.button_send_sms a:hover { /*внешность ссылки при наведении на неё курсора*/
+ background: #56a8f3;
+}
+
+
+
+/* --------------- Ссылки в окне чата вверху ------------------ */
+.header__helplog-link a {
+ float: left;
+ font: 1.0em Veranda, Arial; /* стиль шрифта */
+ color: #282828; /*цвет ссылки*/
+ text-decoration: underline; /* Добавляем подчеркивание */
+
+ /* display: block; /*строка меню подсвечивается до конца блока*/
+ /* line-height:150%; /*межстрочный интервал в левом меню*/
+ /* font-weight: bold; /*жирный шрифт*/
+ /* text-decoration: none; /*отключает поддчеркивание ссылки*/
+ /* background: #ff11f5; */
+}
+
+.header__helplog-link a:hover { /*внешность ссылки при наведении на неё курсора*/
+ color: #9a9a9a; /* Цвет ссылки при наведении на нее курсора мыши */  
+ text-decoration: none; /* Добавляем подчеркивание */
+}
+
+@media only screen and (max-width: 320px) { /* Внешний вид ссылок в подвале в Мобильной-Версии */
+ .header__helplog-link a { 	font: 0.8em Veranda, Arial; }
+}
